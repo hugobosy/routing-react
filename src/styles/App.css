@@ -1,0 +1,26 @@
+nav {
+  background-color: #333;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+
+a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: cornsilk;
+  border-bottom: 5px solid #333;
+  padding: 20px 40px;
+  transition: .4s;
+}
+
+a:hover {
+  color: lawngreen;
+}
+
+.active {
+  border-bottom-color: lawngreen;
+}
