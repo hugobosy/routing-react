@@ -12,7 +12,7 @@ export const Header = () => {
         <Routes>
 
             <Route path="/" element={<HeaderImage image={img1}/>}/>
-            <Route path="/product" element={<HeaderImage image={img2}/>}/>
+            <Route path="/products" element={<HeaderImage image={img2}/>}/>
             <Route path="/contact" element={<HeaderImage image={img3}/>}/>
             <Route path="/admin" element={<HeaderImage image={img4}/>}/>
             <Route path="/login" element={<HeaderImage image={img4}/>}/>

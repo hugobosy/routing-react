@@ -7,13 +7,15 @@ import {AdminPage} from "../pages/AdminPage";
 import {ErrorPage} from "../pages/ErrorPage";
 import {Routes, Route, Navigate} from "react-router";
 import {LoginPage} from "../pages/LoginPage";
+import {ProductListPage} from "../pages/ProductListPage";
 
 export const Page = () => {
     const permission = true;
     return (
         <Routes>
                 <Route path="/" element={<HomePage/>}/>
-                <Route path="/product" element={<ProductPage/>}/>
+                <Route path="/products" element={<ProductListPage/>}/>
+                <Route path="/product/:id" element={<ProductPage/>}/>
                 <Route path="/contact" element={<ContactPage/>}/>
                 <Route path="/admin" element={permission ? <AdminPage/> : <Navigate to="/login"/> }/>
                 <Route path="/login" element={<LoginPage/>}/>
