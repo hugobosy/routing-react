@@ -15,6 +15,7 @@ export const Header = () => {
             <Route path="/product" element={<HeaderImage image={img2}/>}/>
             <Route path="/contact" element={<HeaderImage image={img3}/>}/>
             <Route path="/admin" element={<HeaderImage image={img4}/>}/>
+            <Route path="/login" element={<HeaderImage image={img4}/>}/>
 
         </Routes>
     )
